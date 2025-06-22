@@ -50,9 +50,8 @@ const Home = () => {
         initial="hidden"
         animate="visible"
       >
-        <div className="flex justify-between items-start mb-8">
-
-          <motion.div className="text-center mb-12 flex-1" variants={itemVariants}>
+        <div className="relative mb-8">
+          <motion.div className="text-center mb-12" variants={itemVariants}>
             <div className="flex items-center justify-center mb-4">
               <motion.div
                 animate={{ rotate: 360 }}
@@ -80,8 +79,9 @@ const Home = () => {
               Create your perfect soundtrack with AI-powered music generation
             </p>
           </motion.div>
-          <motion.div variants={itemVariants}>
-              <ThemeToggle />
+
+          <motion.div className="absolute top-0 right-0" variants={itemVariants}>
+            <ThemeToggle />
           </motion.div>
         </div>
 

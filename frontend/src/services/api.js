@@ -1,6 +1,6 @@
 const baseURL = import.meta.env.VITE_BACKEND_API || 'http://localhost:5000';
 
-export async function fetchMoods() { //fetching API
+export async function fetchMoods() {
   const res = await fetch(`${baseURL}/api/moods`);
   return res.json();
 }
