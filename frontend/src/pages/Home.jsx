@@ -1,4 +1,4 @@
-import { motion } from "framer-motion"
+import { color, motion } from "framer-motion"
 import { Music, Clock, Sparkles } from "lucide-react"
 import MoodSelector from "../components/MoodSelector"
 import GenreSelector from "../components/GenreSelector"
@@ -151,8 +151,8 @@ const Home = () => {
                     >
                       <Music className="w-16 h-16 mx-auto text-purple-300 opacity-60" />
                     </motion.div>
-                    <h3 className="text-xl font-semibold text-white mb-2">No recent tracks yet</h3>
-                    <p className="text-purple-200 opacity-70">Generate your first track and play it and will appear here</p>
+                    <h3 className={`text-xl font-semibold ${colors.textPrimary} mb-2`}>No recent tracks yet</h3>
+                    <p className={`${colors.textMuted} opacity-70`}>Generate your first track and play it and will appear here</p>
                   </motion.div>
                 </div>
               )}
