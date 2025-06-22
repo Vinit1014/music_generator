@@ -73,7 +73,7 @@ npm install
 Create a `.env` file:
 
 ```env
-VITE_BACKEND_URL=http://localhost:5000
+VITE_BACKEND_API=http://localhost:5000
 ```
 
 Start the frontend:
