@@ -2,6 +2,7 @@
 
 Wubble QuickTune is a simple full-stack application that lets users generate and play AI-powered music based on mood and genre preferences.
 
+Deployed url: https://music-generator-sigma.vercel.app/
 ## 🚀 Features
 
 - 🎧 Generate tracks based on selected mood and genre
